@@ -1,0 +1,24 @@
+{
+  "name": "aws-node-restapi-mongodb",
+  "version": "1.0.0",
+  "description": "Serverless REST API with MongoDB using Mongoose and Bluebird",
+  "main": "handler.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^5.0.0-rc0",
+    "validator": "^7.0.0"
+  },
+  "author": "Luke Andersen <luke.andersen@iag.com.au>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "serverless-offline": "^3.16.0"
+  },
+  "scripts": {
+    "test": "ava",
+    "dev": "serverless offline start --skipCacheInvalidation",
+    "deploy": "serverless deploy -v"
+  }
+}
