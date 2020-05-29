@@ -13,8 +13,8 @@
   "author": "Luke Andersen <luke.andersen@iag.com.au>",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.25.0",
-    "serverless-offline": "^3.16.0"
+    "ava": "0.25.0",
+    "serverless-offline": "3.33.0"
   },
   "scripts": {
     "test": "ava",
