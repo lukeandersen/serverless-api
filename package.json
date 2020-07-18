@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "0.25.0",
-    "serverless-offline": "3.33.0"
+    "serverless-offline": "6.5.0"
   },
   "scripts": {
     "test": "ava",
