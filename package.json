@@ -8,7 +8,7 @@
     "dotenv": "^8.0.0",
     "jsonwebtoken": "^8.1.0",
     "mongoose": "^5.0.0-rc0",
-    "validator": "^7.0.0"
+    "validator": "^13.0.0"
   },
   "author": "Luke Andersen <luke.andersen@iag.com.au>",
   "license": "MIT",
